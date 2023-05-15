@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'docker'
-        repository: 'stelianbudai/nodejs-docker-example'
+        repository: 'stelianbudai/new'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
